@@ -14,7 +14,7 @@ public class StepTracker
   int days=0;
   for (int s:myDailySteps)
     if(s>=active)
-      days++
+      days++;
     return days;
  }
  public double averageSteps(){
