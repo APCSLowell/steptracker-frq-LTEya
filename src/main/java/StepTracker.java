@@ -4,7 +4,7 @@ public class StepTracker
  private ArrayList <Integer> myDailySteps;
  private int active;
  public StepTracker (int steps){
-  myDailySteps=new Arraylist <Integer>();
+  myDailySteps=new ArrayList <Integer>();
   active = steps;
  }
  public void addDailySteps(int steps){
